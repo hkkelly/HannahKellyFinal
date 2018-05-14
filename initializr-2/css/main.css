@@ -13,3 +13,7 @@ p.jumbotron {
 body {
   font-family: "Tahoma", Geneva, sans-serif;
 }
+.socials {
+  color: blue;
+  text-align: right;
+}
