@@ -19,11 +19,17 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
-
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
-      
-    </script>
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+        <script>$(document).ready(function() {
+          $('#example').DataTable( {
+              "scrollY":        "200px",
+              "scrollCollapse": true,
+              "paging":         false
+          } );
+      } );</script>
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
     </head>
     <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -94,6 +100,46 @@
         <div class = "col-md-12">
         <p><a class="btn btn-primary btn-lg" href="images/WebResume.jpg" role="button">Full Resume &raquo;</a></p>
       </div>
+      <div class = "col-md-12">
+      <h2>
+        References
+      </h2>
+    </div>
+      <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Reference</th>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Mitch Morales</td>
+                    <td>Euphoria</td>
+                    <td>Founder and COO</td>
+                    <td>mitch@euphoriafest.com</td
+                </tr>
+                <tr>
+                  <td>Bill Minutaglio</td>
+                  <td>Music into Words, UT</td>
+                  <td>Associate Professor</td>
+                  <td>bminutag@austin.utexas.edu</td>
+                </tr>
+                <tr>
+                    <td>Cameron Gibson</td>
+                    <td>JamFeed</td>
+                    <td>Founder and CEO</td>
+                    <td>cameron@jamfeed.com</td>
+                </tr>
+                <tr>
+                  <td>Paul Schomer</td>
+                  <td>Microsessions</td>
+                  <td>Founder and Director</td>
+                  <td>paul@microsessions.com</td>
+                </tr>
 
       <hr>
     </div>      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
