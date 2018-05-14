@@ -1,3 +1,4 @@
+
 .jumbotron {
   text-align: center;
   background-color: #B0C4DE;
@@ -10,10 +11,9 @@
 body {
   font-family: "Tahoma", Geneva, sans-serif;
 }
-.socials {
-  color: blue;
-  text-align: right;
-}
 h1 {
   margin: 50px 20px 50px 20px;
+}
+.socials {
+  text-align: right;
 }
