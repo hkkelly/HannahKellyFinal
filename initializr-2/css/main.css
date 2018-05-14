@@ -1,9 +1,6 @@
-p.jumbotron {
-  font-weight: lighter;
-  color: blue;
-}
 .jumbotron {
   text-align: center;
+  background-color: #B0C4DE;
 }
 .col-md-12 {
   text-align: center;
@@ -16,4 +13,7 @@ body {
 .socials {
   color: blue;
   text-align: right;
+}
+h1 {
+  margin: 50px 20px 50px 20px;
 }
